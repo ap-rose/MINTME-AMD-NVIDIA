@@ -60,15 +60,8 @@ static void print_versions(xmrig::Config *config)
 #   else
     const char *ocl = "0.0";
 #   endif
-	Log::i()->text(config->isColors() ? "\x1B[01;32m\ $$\\       $$$$$$\\  $$\\   $$\\ $$$$$$$\\  " : "s");
-	Log::i()->text(config->isColors() ? "\x1B[01;32m\ $$ |     $$  __$$\\ $$ |  $$ |$$  __$$\\" : "s");
-	Log::i()->text(config->isColors() ? "\x1B[01;32m\ $$ |     $$ /  $$ |$$ |  $$ |$$ |  $$ |" : "s");
-	Log::i()->text(config->isColors() ? "\x1B[01;32m\ $$ |     $$ |  $$ |$$ |  $$ |$$ |  $$ |" : "s");
-	Log::i()->text(config->isColors() ? "\x1B[01;32m\ $$ |     $$ |  $$ |$$ |  $$ |$$ |  $$ |" : "s");
-	Log::i()->text(config->isColors() ? "\x1B[01;32m\ $$ |     $$ |  $$ |$$ |  $$ |$$ |  $$ |" : "s");
-	Log::i()->text(config->isColors() ? "\x1B[01;32m\ $$$$$$$$\\ $$$$$$  |\\$$$$$$  |$$$$$$$  |" : "s");
-	Log::i()->text(config->isColors() ? "\x1B[01;32m\ \\________|\\______/  \\______/ \\_______/ Mining" : "s ");
-	Log::i()->text(config->isColors() ? "\x1B[01;32m\            by Monkins1010" : "s ");
+	Log::i()->text(config->isColors() ? "\x1B[01;32m\ MINTME-AMD-NVIDIA (XMRig) 2020" : "s");
+	Log::i()->text(config->isColors() ? "\x1B[01;32m\ mintme.cf - mintme.ga - mintme.gq - mintme.ml - mintme.tk" : "s ");
 	Log::i()->text(config->isColors() ? GREEN_BOLD(" * ") WHITE_BOLD("%-13s") CYAN_BOLD("%s/%s") WHITE_BOLD(" libuv/%s OpenCL/%s%s")
 		: " * %-13s%s/%s libuv/%s OpenCL/%s%s",
 		"VERSIONS", APP_NAME, APP_VERSION, uv_version_string(), ocl, buf);
