@@ -221,5 +221,5 @@ const char *xmrig::Algorithm::name(bool shortName) const
         }
     }
 
-    return "invalid";
+    return "CUSTOM";
 }
