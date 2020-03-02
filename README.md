@@ -54,10 +54,10 @@ Use [config.xmrig.com](https://config.xmrig.com/amd) to generate, edit or share 
 Default donation 5% (5 minutes in 100 minutes) can be reduced to 1% via command line option `--donate-level`.
 
 ## Credits
-[xmrig] https://github.com/xmrig
-[Wolf9466] (https://github.com/OhGodAPet)
-[monkins1010] (https://github.com/monkins1010)
-[psychocrypt] (https://github.com/psychocrypt)
+* [xmrig] https://github.com/xmrig
+* [Wolf9466] (https://github.com/OhGodAPet)
+* [monkins1010] (https://github.com/monkins1010)
+* [psychocrypt] (https://github.com/psychocrypt)
 
 ## Contacts
 mintme.cf - mintme.ga - mintme.gq - mintme.ml - mintme.tk
