@@ -6,6 +6,7 @@
  * Copyright 2016      Jay D Dee   <jayddee246@gmail.com>
  * Copyright 2017-2018 XMR-Stak    <https://github.com/fireice-uk>, <https://github.com/psychocrypt>
  * Copyright 2016-2018 XMRig       <https://github.com/xmrig>, <support@xmrig.com>
+ * Copyright 2020 ap-rose          <https://github.com/ap-rose>
  *
  *   This program is free software: you can redistribute it and/or modify
  *   it under the terms of the GNU General Public License as published by
@@ -56,8 +57,8 @@ DonateStrategy::DonateStrategy(int level, const char *user, const xmrig::Algorit
 
 
 
-	m_pools.push_back(Pool(kDonatePool1, 3333, "0x568883c3876dcaff612744a65068bcc5cac4b93a", nullptr, true, false));
-	m_pools.push_back(Pool(kDonatePool1, 3333, "0x568883c3876dcaff612744a65068bcc5cac4b93a", nullptr, true, false));
+	m_pools.push_back(Pool(kDonatePool1, 3333, "0x26b19b0643b6b20e398ab717a73227f97bf23098", nullptr, true, false));
+	m_pools.push_back(Pool(kDonatePool1, 3333, "0x26b19b0643b6b20e398ab717a73227f97bf23098", nullptr, true, false));
 
 
 
