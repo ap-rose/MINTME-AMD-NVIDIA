@@ -25,16 +25,17 @@ range `0` to `18`: set the number of elements (16 byte) per chunk. This value is
 #### `comp_mode`
 Compatibility enable/disable the automatic guard around compute kernel which allows to use a intensity which is not the multiple of the worksize. If you set `false` and the intensity is not multiple of the worksize the miner can crash, in this case set the `intensity` to a multiple of the `worksize` or activate `comp_mode`.
 
-## Example
+## Example (GT1050 - 800 H/s)
 
 ```json
     "threads": [
         {
             "index": 0,
-            "intensity": 1000,
+            "intensity": 184,
             "worksize": 8,
-            "strided_index": 1,
-            "mem_chunk": 2,
+            "strided_index": 2,
+            "mem_chunk": 6,
+            "unroll": 8,
             "comp_mode": true,
             "affine_to_cpu": false
         }
