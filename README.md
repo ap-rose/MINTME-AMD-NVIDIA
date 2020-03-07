@@ -12,7 +12,7 @@ MINTME-AMD-NVIDIA is a modified version of XMRig. MINTME-AMD-NVIDIA is a high pe
 
 
 ## Download
-* Binary releases: https://github.com/xmrig/xmrig-amd/releases
+* Binary releases: https://github.com/ap-rose/MINTME-AMD-NVIDIA/releases/tag/1.0.0
 
 ## Usage
 :chart_with_upwards_trend::chart_with_upwards_trend::chart_with_upwards_trend: GTX1050 (as seen in screenshot) :chart_with_upwards_trend::chart_with_upwards_trend::chart_with_upwards_trend:
