@@ -1,9 +1,7 @@
 # MINTME-AMD-NVIDIA (XMRig)
 MINTME-AMD-NVIDIA is a modified version of XMRig. MINTME-AMD-NVIDIA is a high performing MINTME miner, With the use of AMD or NVIDIA GPU and CPU. Full Windows 10 Support (32/64/86)
 
-:warning: Suggested values for GPU auto configuration can be not optimal or not working, you may need tweak your threads options. Please fell free open an [issue](https://github.com/xmrig/xmrig-amd/issues) if auto configuration suggest wrong values.
-
-<img src="https://i.imgur.com/TFncsi7.png" width="696" >
+<img src="https://i.imgur.com/tzZ6idH.png" width="696" >
 
 #### Table of contents
 * [Download](#download)
@@ -15,8 +13,6 @@ MINTME-AMD-NVIDIA is a modified version of XMRig. MINTME-AMD-NVIDIA is a high pe
 
 ## Download
 * Binary releases: https://github.com/xmrig/xmrig-amd/releases
-* Git tree: https://github.com/xmrig/xmrig-amd.git
-  * Clone with `git clone https://github.com/xmrig/xmrig-amd.git`  :hammer: [Build instructions](https://github.com/xmrig/xmrig-amd/wiki/Build).
 
 ## Usage
 Use [config.xmrig.com](https://config.xmrig.com/amd) to generate, edit or share configurations.
@@ -51,13 +47,14 @@ Use [config.xmrig.com](https://config.xmrig.com/amd) to generate, edit or share 
 ```
 
 ## Donations
-Default donation 5% (5 minutes in 100 minutes) can be reduced to 1% via command line option `--donate-level`.
+Default donation 4%
 
 ## Credits
 * [xmrig] https://github.com/xmrig
 * [Wolf9466] (https://github.com/OhGodAPet)
 * [monkins1010] (https://github.com/monkins1010)
 * [psychocrypt] (https://github.com/psychocrypt)
+* [AndroidDev77] 
 
 ## Contacts
 mintme.cf - mintme.ga - mintme.gq - mintme.ml - mintme.tk
