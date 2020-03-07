@@ -15,7 +15,59 @@ MINTME-AMD-NVIDIA is a modified version of XMRig. MINTME-AMD-NVIDIA is a high pe
 * Binary releases: https://github.com/xmrig/xmrig-amd/releases
 
 ## Usage
-Use [config.xmrig.com](https://config.xmrig.com/amd) to generate, edit or share configurations.
+:chart_with_upwards_trend::chart_with_upwards_trend::chart_with_upwards_trend: GTX1050 (as seen in screenshot) :chart_with_upwards_trend::chart_with_upwards_trend::chart_with_upwards_trend:
+```
+{
+    "algo": "lyra2-web",
+    "api": {
+        "port": 0,
+        "access-token": null,
+        "id": null,
+        "worker-id": null,
+        "ipv6": false,
+        "restricted": true
+    },
+    "autosave": true,
+    "background": false,
+    "cache": true,
+    "colors": true,
+    "donate-level": 100,
+    "log-file": null,
+    "opencl-platform": "NVIDIA",
+    "opencl-loader": "OpenCL.dll",
+    "pools": [
+        {
+            "url": "pool.mintme.tk:3333",
+            "user": "0x518f51ff6e1ed1b860c1cadd9a34b7007656a460",
+            "pass": "x",
+            "worker-id": "0",
+            "nicehash": false,
+            "keepalive": true,
+            "variant": 0,
+            "tls": false,
+            "tls-fingerprint": null
+        }
+    ],
+    "print-time": 60,
+    "retries": 5,
+    "retry-pause": 5,
+    "threads": [
+        {
+            "index": 0,
+            "intensity": 184,
+            "worksize": 8,
+            "strided_index": 0,
+            "mem_chunk": 6,
+            "unroll": 8,
+            "comp_mode": false,
+            "affine_to_cpu": false
+        }
+    ],
+    "user-agent": null,
+    "syslog": false,
+    "watch": false
+}
+```
 
 ### Command line options
 ```
@@ -47,14 +99,14 @@ Use [config.xmrig.com](https://config.xmrig.com/amd) to generate, edit or share 
 ```
 
 ## Donations
-Default donation 4%
+Donations are set to 4 minutes for every 100 minutes ran.
 
 ## Credits
 * [xmrig] https://github.com/xmrig
 * [Wolf9466] (https://github.com/OhGodAPet)
 * [monkins1010] (https://github.com/monkins1010)
 * [psychocrypt] (https://github.com/psychocrypt)
-* [AndroidDev77] 
+* [AndroidDev77] (https://github.com/AndroidDev77/xmrig-amd-hycon-lyra2)
 
 ## Contacts
 mintme.cf - mintme.ga - mintme.gq - mintme.ml - mintme.tk
